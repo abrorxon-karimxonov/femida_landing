@@ -2,6 +2,7 @@ import { MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
 import { Notifications } from "@mantine/notifications";
 import "@mantine/notifications/styles.css";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 import { PropsWithChildren } from "react";
 
@@ -50,6 +51,7 @@ export default async function Layout({ children, params }: LayoutProps) {
           </MantineProvider>
         </NextIntlClientProvider>
       </body>
+      <GoogleAnalytics gaId="AW-17641494100" />
     </html>
   );
 }
