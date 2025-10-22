@@ -138,11 +138,30 @@ const Infos = () => {
         lh="1.375rem"
         c="rgb(95, 101, 103)"
         component="a"
+        href="https://t.me/FemidaFinance"
+      >
+        {t("telegram")}
+      </Text>
+      <Text
+        fz="1rem"
+        fw={400}
+        lh="1.375rem"
+        c="rgb(95, 101, 103)"
+        component="a"
+        href="https://www.instagram.com/femida_finance?igsh=ZHVidmRpaXRsaTc0"
+      >
+        {t("instagram")}
+      </Text>
+      <Text
+        fz="1rem"
+        fw={400}
+        lh="1.375rem"
+        c="rgb(95, 101, 103)"
+        component="a"
         href="https://yandex.uz/maps/org/225635753458/?ll=69.301032%2C41.320171&z=18.72"
       >
-        {/* {t("Address will be here")} */}
         Address: г. Ташкент, Мирзо – Улугбекский район, Асака МСГ, улица
-        Мустакиллик шох, дом 88 – а, 3 этаж, 312-кабинет. Бизнес центр "ДАРХАН"
+        Мустакиллик шох, дом 88 – а, 3 этаж. Бизнес центр "ДАРХАН"
       </Text>
     </>
   );
